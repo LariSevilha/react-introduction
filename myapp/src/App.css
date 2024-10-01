@@ -40,3 +40,57 @@
 .read-the-docs {
   color: #888;
 }
+.logo {
+  height: 6rem;
+  padding: 1rem;
+}
+
+.logo.react {
+  animation: react-logo-spin infinite 20s linear;
+}
+
+@keyframes react-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  padding: 2rem;
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.counter-button {
+  background-color: #3f08a7;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.counter-button:hover {
+  background-color: #8c21f1;
+}
+
+.counter-value {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.read-the-docs {
+  color: #888;
+}
